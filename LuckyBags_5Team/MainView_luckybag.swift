@@ -1,26 +1,28 @@
 //
-//  ContentView.swift
+//  MainView_luckybag.swift
 //  gdsc_miniproject
 //
-//  Created by 박신영 on 2023/01/04.
+//  Created by 박신영 on 2023/01/10.
 //
-
 
 import SwiftUI
 
-struct ContentView: View {
-    
+struct MainView_luckybag: View {
+    @State private var duckdam = false
+    @State private var mymessage = false
+    @State private var logout = false
+    @Binding var lucky_bag_count: Int
     
     var body: some View {
         NavigationView {
             ZStack {
-                Image("토끼화면")
+                Image("mainview")
                     .resizable()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .ignoresSafeArea()
                 VStack {
                     HStack {
-                        NavigationLink(destination: mymessage_View().navigationBarBackButtonHidden(true), label: {
+                        NavigationLink(destination: message_View().navigationBarBackButtonHidden(true), label: {
                             Text("내 메세지")
                                 .foregroundColor(.brown)
                                 .font(.system(size: 15))
@@ -37,6 +39,8 @@ struct ContentView: View {
                     }
                     
                     Spacer()
+                    Text("총 메시지 개수 : \(lucky_bag_count)개")
+                        .foregroundColor(Color(hex: 0xA07400))
                     NavigationLink(destination: select_luckybag_View().navigationBarBackButtonHidden(true), label: {
                         Image("DuckButton")
                             .resizable()
@@ -48,11 +52,11 @@ struct ContentView: View {
             .navigationBarBackButtonHidden(true)
         }
     }
+        
 }
-    
 
-struct ContentView_Previews: PreviewProvider {
+struct MainView_luckybag_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView_luckybag(lucky_bag_count: .constant(0))
     }
 }

@@ -14,6 +14,12 @@
 		9EC0F559297E7E8C00E07B9D /* LuckyBags_5TeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F558297E7E8C00E07B9D /* LuckyBags_5TeamTests.swift */; };
 		9EC0F563297E7E8C00E07B9D /* LuckyBags_5TeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F562297E7E8C00E07B9D /* LuckyBags_5TeamUITests.swift */; };
 		9EC0F565297E7E8C00E07B9D /* LuckyBags_5TeamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F564297E7E8C00E07B9D /* LuckyBags_5TeamUITestsLaunchTests.swift */; };
+		9EC0F572297E7EAD00E07B9D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F571297E7EAD00E07B9D /* SignupView.swift */; };
+		9EC0F574297E7EBF00E07B9D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F573297E7EBF00E07B9D /* LoginView.swift */; };
+		9EC0F576297E7ED100E07B9D /* mymessage_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F575297E7ED100E07B9D /* mymessage_View.swift */; };
+		9EC0F578297E7EE600E07B9D /* message_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F577297E7EE600E07B9D /* message_View.swift */; };
+		9EC0F57A297E7EF700E07B9D /* select_luckybag_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F579297E7EF700E07B9D /* select_luckybag_View.swift */; };
+		9EC0F57C297E7F0700E07B9D /* MainView_luckybag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F57B297E7F0700E07B9D /* MainView_luckybag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		9EC0F55E297E7E8C00E07B9D /* LuckyBags_5TeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyBags_5TeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC0F562297E7E8C00E07B9D /* LuckyBags_5TeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyBags_5TeamUITests.swift; sourceTree = "<group>"; };
 		9EC0F564297E7E8C00E07B9D /* LuckyBags_5TeamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyBags_5TeamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9EC0F571297E7EAD00E07B9D /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		9EC0F573297E7EBF00E07B9D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9EC0F575297E7ED100E07B9D /* mymessage_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mymessage_View.swift; sourceTree = "<group>"; };
+		9EC0F577297E7EE600E07B9D /* message_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message_View.swift; sourceTree = "<group>"; };
+		9EC0F579297E7EF700E07B9D /* select_luckybag_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = select_luckybag_View.swift; sourceTree = "<group>"; };
+		9EC0F57B297E7F0700E07B9D /* MainView_luckybag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView_luckybag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,12 @@
 			children = (
 				9EC0F547297E7E8B00E07B9D /* LuckyBags_5TeamApp.swift */,
 				9EC0F549297E7E8B00E07B9D /* ContentView.swift */,
+				9EC0F571297E7EAD00E07B9D /* SignupView.swift */,
+				9EC0F575297E7ED100E07B9D /* mymessage_View.swift */,
+				9EC0F573297E7EBF00E07B9D /* LoginView.swift */,
+				9EC0F577297E7EE600E07B9D /* message_View.swift */,
+				9EC0F579297E7EF700E07B9D /* select_luckybag_View.swift */,
+				9EC0F57B297E7F0700E07B9D /* MainView_luckybag.swift */,
 				9EC0F54B297E7E8C00E07B9D /* Assets.xcassets */,
 				9EC0F54D297E7E8C00E07B9D /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC0F572297E7EAD00E07B9D /* SignupView.swift in Sources */,
+				9EC0F576297E7ED100E07B9D /* mymessage_View.swift in Sources */,
+				9EC0F578297E7EE600E07B9D /* message_View.swift in Sources */,
+				9EC0F57C297E7F0700E07B9D /* MainView_luckybag.swift in Sources */,
 				9EC0F54A297E7E8B00E07B9D /* ContentView.swift in Sources */,
+				9EC0F574297E7EBF00E07B9D /* LoginView.swift in Sources */,
 				9EC0F548297E7E8B00E07B9D /* LuckyBags_5TeamApp.swift in Sources */,
+				9EC0F57A297E7EF700E07B9D /* select_luckybag_View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

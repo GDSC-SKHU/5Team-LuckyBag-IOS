@@ -11,7 +11,7 @@ import SwiftUI
 struct LuckyBags_5TeamApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
