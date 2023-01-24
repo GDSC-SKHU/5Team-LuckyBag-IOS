@@ -20,6 +20,16 @@
 		9EC0F578297E7EE600E07B9D /* message_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F577297E7EE600E07B9D /* message_View.swift */; };
 		9EC0F57A297E7EF700E07B9D /* select_luckybag_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F579297E7EF700E07B9D /* select_luckybag_View.swift */; };
 		9EC0F57C297E7F0700E07B9D /* MainView_luckybag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F57B297E7F0700E07B9D /* MainView_luckybag.swift */; };
+		9EC0F5E5297FC60100E07B9D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9EC0F5E4297FC60100E07B9D /* Alamofire */; };
+		9EC0F5E9297FC65E00E07B9D /* TokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5E8297FC65E00E07B9D /* TokenData.swift */; };
+		9EC0F5EB297FC67300E07B9D /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5EA297FC67300E07B9D /* AuthResponse.swift */; };
+		9EC0F5ED297FC68800E07B9D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5EC297FC68800E07B9D /* UserData.swift */; };
+		9EC0F5F0297FC6B500E07B9D /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5EF297FC6B500E07B9D /* ApiClient.swift */; };
+		9EC0F5F2297FC6C500E07B9D /* ApiLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5F1297FC6C500E07B9D /* ApiLogger.swift */; };
+		9EC0F5F5297FC6E800E07B9D /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5F4297FC6E800E07B9D /* AuthRouter.swift */; };
+		9EC0F5F8297FC70F00E07B9D /* AuthApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5F7297FC70F00E07B9D /* AuthApiService.swift */; };
+		9EC0F5FE297FC7AC00E07B9D /* BaseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5FD297FC7AC00E07B9D /* BaseInterceptor.swift */; };
+		9EC0F600297FC7D700E07B9D /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F5FF297FC7D700E07B9D /* UserVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +66,15 @@
 		9EC0F577297E7EE600E07B9D /* message_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message_View.swift; sourceTree = "<group>"; };
 		9EC0F579297E7EF700E07B9D /* select_luckybag_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = select_luckybag_View.swift; sourceTree = "<group>"; };
 		9EC0F57B297E7F0700E07B9D /* MainView_luckybag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView_luckybag.swift; sourceTree = "<group>"; };
+		9EC0F5E8297FC65E00E07B9D /* TokenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenData.swift; sourceTree = "<group>"; };
+		9EC0F5EA297FC67300E07B9D /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		9EC0F5EC297FC68800E07B9D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		9EC0F5EF297FC6B500E07B9D /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		9EC0F5F1297FC6C500E07B9D /* ApiLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLogger.swift; sourceTree = "<group>"; };
+		9EC0F5F4297FC6E800E07B9D /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		9EC0F5F7297FC70F00E07B9D /* AuthApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApiService.swift; sourceTree = "<group>"; };
+		9EC0F5FD297FC7AC00E07B9D /* BaseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInterceptor.swift; sourceTree = "<group>"; };
+		9EC0F5FF297FC7D700E07B9D /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC0F5E5297FC60100E07B9D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +106,11 @@
 		9EC0F53B297E7E8B00E07B9D = {
 			isa = PBXGroup;
 			children = (
+				9EC0F5FF297FC7D700E07B9D /* UserVM.swift */,
+				9EC0F5EE297FC6A600E07B9D /* API */,
+				9EC0F5E7297FC64600E07B9D /* Model */,
 				9EC0F546297E7E8B00E07B9D /* LuckyBags_5Team */,
+				9EC0F5E6297FC61700E07B9D /* Screens */,
 				9EC0F557297E7E8C00E07B9D /* LuckyBags_5TeamTests */,
 				9EC0F561297E7E8C00E07B9D /* LuckyBags_5TeamUITests */,
 				9EC0F545297E7E8B00E07B9D /* Products */,
@@ -107,13 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				9EC0F547297E7E8B00E07B9D /* LuckyBags_5TeamApp.swift */,
-				9EC0F549297E7E8B00E07B9D /* ContentView.swift */,
-				9EC0F571297E7EAD00E07B9D /* SignupView.swift */,
-				9EC0F575297E7ED100E07B9D /* mymessage_View.swift */,
-				9EC0F573297E7EBF00E07B9D /* LoginView.swift */,
-				9EC0F577297E7EE600E07B9D /* message_View.swift */,
-				9EC0F579297E7EF700E07B9D /* select_luckybag_View.swift */,
-				9EC0F57B297E7F0700E07B9D /* MainView_luckybag.swift */,
 				9EC0F54B297E7E8C00E07B9D /* Assets.xcassets */,
 				9EC0F54D297E7E8C00E07B9D /* Preview Content */,
 			);
@@ -145,6 +162,66 @@
 			path = LuckyBags_5TeamUITests;
 			sourceTree = "<group>";
 		};
+		9EC0F5E6297FC61700E07B9D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0F549297E7E8B00E07B9D /* ContentView.swift */,
+				9EC0F571297E7EAD00E07B9D /* SignupView.swift */,
+				9EC0F575297E7ED100E07B9D /* mymessage_View.swift */,
+				9EC0F573297E7EBF00E07B9D /* LoginView.swift */,
+				9EC0F577297E7EE600E07B9D /* message_View.swift */,
+				9EC0F579297E7EF700E07B9D /* select_luckybag_View.swift */,
+				9EC0F57B297E7F0700E07B9D /* MainView_luckybag.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9EC0F5E7297FC64600E07B9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0F5E8297FC65E00E07B9D /* TokenData.swift */,
+				9EC0F5EA297FC67300E07B9D /* AuthResponse.swift */,
+				9EC0F5EC297FC68800E07B9D /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EC0F5EE297FC6A600E07B9D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0F5FC297FC79100E07B9D /* Interceptor */,
+				9EC0F5F6297FC6FE00E07B9D /* Service */,
+				9EC0F5F3297FC6DB00E07B9D /* Router */,
+				9EC0F5EF297FC6B500E07B9D /* ApiClient.swift */,
+				9EC0F5F1297FC6C500E07B9D /* ApiLogger.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9EC0F5F3297FC6DB00E07B9D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0F5F4297FC6E800E07B9D /* AuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9EC0F5F6297FC6FE00E07B9D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0F5F7297FC70F00E07B9D /* AuthApiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9EC0F5FC297FC79100E07B9D /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0F5FD297FC7AC00E07B9D /* BaseInterceptor.swift */,
+			);
+			path = Interceptor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,6 +238,9 @@
 			dependencies = (
 			);
 			name = LuckyBags_5Team;
+			packageProductDependencies = (
+				9EC0F5E4297FC60100E07B9D /* Alamofire */,
+			);
 			productName = LuckyBags_5Team;
 			productReference = 9EC0F544297E7E8B00E07B9D /* LuckyBags_5Team.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +313,9 @@
 				Base,
 			);
 			mainGroup = 9EC0F53B297E7E8B00E07B9D;
+			packageReferences = (
+				9EC0F5E3297FC60100E07B9D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 9EC0F545297E7E8B00E07B9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,14 +358,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC0F5F5297FC6E800E07B9D /* AuthRouter.swift in Sources */,
 				9EC0F572297E7EAD00E07B9D /* SignupView.swift in Sources */,
 				9EC0F576297E7ED100E07B9D /* mymessage_View.swift in Sources */,
 				9EC0F578297E7EE600E07B9D /* message_View.swift in Sources */,
+				9EC0F5F2297FC6C500E07B9D /* ApiLogger.swift in Sources */,
 				9EC0F57C297E7F0700E07B9D /* MainView_luckybag.swift in Sources */,
 				9EC0F54A297E7E8B00E07B9D /* ContentView.swift in Sources */,
+				9EC0F5ED297FC68800E07B9D /* UserData.swift in Sources */,
 				9EC0F574297E7EBF00E07B9D /* LoginView.swift in Sources */,
 				9EC0F548297E7E8B00E07B9D /* LuckyBags_5TeamApp.swift in Sources */,
+				9EC0F5FE297FC7AC00E07B9D /* BaseInterceptor.swift in Sources */,
+				9EC0F5E9297FC65E00E07B9D /* TokenData.swift in Sources */,
+				9EC0F5EB297FC67300E07B9D /* AuthResponse.swift in Sources */,
 				9EC0F57A297E7EF700E07B9D /* select_luckybag_View.swift in Sources */,
+				9EC0F5F0297FC6B500E07B9D /* ApiClient.swift in Sources */,
+				9EC0F600297FC7D700E07B9D /* UserVM.swift in Sources */,
+				9EC0F5F8297FC70F00E07B9D /* AuthApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +693,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9EC0F5E3297FC60100E07B9D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9EC0F5E4297FC60100E07B9D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EC0F5E3297FC60100E07B9D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EC0F53C297E7E8B00E07B9D /* Project object */;
 }
