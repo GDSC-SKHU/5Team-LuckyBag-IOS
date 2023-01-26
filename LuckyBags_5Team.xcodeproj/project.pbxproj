@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AF5B77329829EE100305DB9 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5B77229829EE100305DB9 /* RestAPI.swift */; };
+		2AF5B7752982A04500305DB9 /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5B7742982A04500305DB9 /* DTO.swift */; };
 		9EC0F548297E7E8B00E07B9D /* LuckyBags_5TeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F547297E7E8B00E07B9D /* LuckyBags_5TeamApp.swift */; };
 		9EC0F54A297E7E8B00E07B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0F549297E7E8B00E07B9D /* ContentView.swift */; };
 		9EC0F54C297E7E8C00E07B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC0F54B297E7E8C00E07B9D /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AF5B77229829EE100305DB9 /* RestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		2AF5B7742982A04500305DB9 /* DTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
 		9EC0F544297E7E8B00E07B9D /* LuckyBags_5Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyBags_5Team.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC0F547297E7E8B00E07B9D /* LuckyBags_5TeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyBags_5TeamApp.swift; sourceTree = "<group>"; };
 		9EC0F549297E7E8B00E07B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 				9EC0F5F3297FC6DB00E07B9D /* Router */,
 				9EC0F5EF297FC6B500E07B9D /* ApiClient.swift */,
 				9EC0F5F1297FC6C500E07B9D /* ApiLogger.swift */,
+				2AF5B77229829EE100305DB9 /* RestAPI.swift */,
+				2AF5B7742982A04500305DB9 /* DTO.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -370,6 +376,8 @@
 				9EC0F548297E7E8B00E07B9D /* LuckyBags_5TeamApp.swift in Sources */,
 				9EC0F5FE297FC7AC00E07B9D /* BaseInterceptor.swift in Sources */,
 				9EC0F5E9297FC65E00E07B9D /* TokenData.swift in Sources */,
+				2AF5B77329829EE100305DB9 /* RestAPI.swift in Sources */,
+				2AF5B7752982A04500305DB9 /* DTO.swift in Sources */,
 				9EC0F5EB297FC67300E07B9D /* AuthResponse.swift in Sources */,
 				9EC0F57A297E7EF700E07B9D /* select_luckybag_View.swift in Sources */,
 				9EC0F5F0297FC6B500E07B9D /* ApiClient.swift in Sources */,
